@@ -70,7 +70,7 @@ Because each character's correct position is hardcoded into its first 6 pixels, 
 Visualizing the ordered patterns reveals the characters of the flag perfectly.
 
 ### 🚩 The Flag
-> **`HTB{brain_sping}`**
+> **`HTB{br41n_d4nc3}`**
 
 *(See `flag_output.png` for the visual output of the extracted letters)*
 
