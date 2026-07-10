@@ -36,12 +36,12 @@ To classify the points along their continuous filaments, we propagate labels alo
 
 ```mermaid
 graph TD
-    A[Unscaled Data] --> B[Anisotropic Scaling: S = [1.0, 0.35, 1.0]]
-    B --> C[Build k-NN Graph: k = 14]
-    C --> D[Symmetrize Graph: graph.maximum]
-    D --> E[Multi-source Dijkstra from 256 Anchors]
-    E --> F[Label Points by Closest Geodesic Anchor]
-    F --> G[Reconstruct progressive flag.jpg]
+    A[Unscaled Data] --> B["Anisotropic Scaling: S = [1.0, 0.35, 1.0]"]
+    B --> C["Build k-NN Graph: k = 14"]
+    C --> D["Symmetrize Graph: graph.maximum"]
+    D --> E["Multi-source Dijkstra from 256 Anchors"]
+    E --> F["Label Points by Closest Geodesic Anchor"]
+    F --> G["Reconstruct progressive flag.jpg"]
 ```
 
 ### Key Optimizations
